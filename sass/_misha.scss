@@ -1,0 +1,9 @@
+@mixin df ($jc){
+    display: flex;
+    align-items: center;
+    justify-content: $jc;
+}
+@mixin fs ($fs: 1em, $fw: 400){
+    font-size: $fs;
+    font-weight: $fw;
+}
